@@ -1,0 +1,49 @@
+@keyframes spiralGradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+body {
+    background: radial-gradient(circle, #ADD800, #00FFFF);
+    background-size: 150% 150%;
+    animation: spiralGradientAnimation 3s linear infinite;
+}
+
+header {
+    height: 70%;
+}
+
+/* Light border on hover for textboxes */
+input[type="text"]:hover,
+textarea:hover {
+    border: 1px solid #ccc;
+}
+
+/* Shadow for buttons */
+button, input[type="button"], input[type="submit"] {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add padding to buttons for better click target */
+button, input[type="button"], input[type="submit"] {
+    padding: 10px 20px;
+}
+
+/* Style for links on hover */
+a:hover {
+    background-color: #ADD8E6; /* Light blue background color */
+    border: 1px solid #00008B; /* Dark blue border */
+    padding: 2px; /* Add padding to make the border more noticeable */
+}
+
+/* Style for the clickable <div> on hover */
+div[role="button"]:hover {
+    background-color: #ADD8E6; /* Light blue background color */
+    border: 1px solid #00008B; /* Dark blue border */
+    cursor: pointer; /* Change the cursor to indicate it's clickable */
+    padding: 2px; /* Add padding to make the border more noticeable */
+}
