@@ -23,13 +23,13 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
+   git clone https://github.com/ankur19986/ToDoList
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd todo-list-app
+   cd ToDoList
    ```
 
 3. Create a virtual environment (optional):
