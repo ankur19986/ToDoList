@@ -4,6 +4,7 @@ This is a simple website to manage you todo lists and items in each list
 This project is developed using Django framwork with sqllite3 database
 
 # Instructions on how to set up and run this application on your system is as follows:
+The backend code is stored in the **todo_app** directory and frontend code is in the **templates** directory
 
 # Django To-Do Lists Application
 
